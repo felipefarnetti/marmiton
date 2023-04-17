@@ -16,6 +16,7 @@ h1 {
   font-style: bold;
   text-align: center;
   color: #393c6c;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 h2 {
@@ -43,30 +44,28 @@ h6 {
 /* HEADER */
 /*  */
 header {
-  background-color: #efefef;
+  background-color: white;
   margin-bottom: 1px;
+  /* border: black solid 1px; */
   color: #f3735f;
-}
-header > div {
-  height: 100%;
-  border: black solid 1px;
+  height: 80px;
   box-sizing: border-box;
 }
 
 header img {
-  height: 40px;
+  width: 200px;
   margin-left: 5px;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 /* MAIN */
 /*  */
 section {
-  background-color: #efefef;
+  background-color: white;
   border: 60px 30px;
   padding: 20px 10px 20px 10px;
-  border: black solid 1px;
+  /* border: black solid 1px; */
 }
 
 p {
@@ -89,12 +88,12 @@ p {
 main section div img {
   width: 300px;
   height: 300px;
-  border: black solid 2px;
+  /* border: black solid 2px; */
   object-fit: fill;
   object-position: center;
   align-items: center;
   border-radius: 5px;
-  margin-left: 20px;
+  margin-left: 24px;
   margin-top: 25px;
 }
 
