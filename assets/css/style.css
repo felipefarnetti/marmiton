@@ -12,25 +12,33 @@ body {
 }
 
 h1 {
+  font-family: "roboto", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
   font-size: 50px;
-  font-style: bold;
   text-align: center;
   color: #393c6c;
   margin-top: 50px;
   margin-bottom: 10px;
 }
 h2 {
+  font-family: "roboto", "sans-serif";
+  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
-  font-style: bold;
   color: #f3735f;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 20px;
+  margin-left: 24px;
 }
 h3 {
+  font-family: "roboto", "sans-serif";
+  font-style: normal;
   font-size: 18px;
-  font-style: bold;
+  font-weight: 700;
   color: #393c6c;
   line-height: 22px;
+  margin-left: 25px;
 }
 
 h6 {
@@ -71,12 +79,17 @@ section {
 p {
   line-height: 22px;
   margin-bottom: 20px;
+  margin-left: 25px;
+  text-align: justify;
 }
 
 .temps {
+  font-family: "roboto", "sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
   color: #efefef;
   background-color: #8a98b1;
-
   margin: 0 auto;
   text-align: center;
   width: 400px;
@@ -98,7 +111,8 @@ main section div img {
 }
 
 section ul {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
   list-style: disc;
   line-height: normal;
 }
