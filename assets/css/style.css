@@ -37,6 +37,7 @@ h6 {
   text-align: center;
   line-height: 14px;
   color: #393c6c;
+  margin-bottom: 25px;
 }
 
 /* HEADER */
@@ -76,11 +77,12 @@ p {
 .temps {
   color: #efefef;
   background-color: #8a98b1;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+  margin: 0 auto;
   text-align: center;
-  width: 250px;
-  height: 25px;
+  width: 400px;
+  height: 45px;
+  line-height: 45px;
   border-radius: 10px;
 }
 
@@ -93,6 +95,7 @@ main section div img {
   align-items: center;
   border-radius: 5px;
   margin-left: 20px;
+  margin-top: 25px;
 }
 
 section ul {
